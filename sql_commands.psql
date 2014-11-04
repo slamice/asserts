@@ -1,0 +1,3 @@
+CREATE DATABASE asserts;
+CREATE USER asserts_user WITH PASSWORD '';
+GRANT ALL PRIVILEGES ON DATABASE "asserts" to asserts_user;
